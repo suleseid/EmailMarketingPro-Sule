@@ -25,7 +25,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1, h2{
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.05rem;
     color: wheat;
 }
 .hero-text h2:hover{
@@ -49,7 +49,7 @@ footer p{
 .nav-links{
     text-align: center;
     padding: 0.7rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
     font-weight: 900;
 }
 .nav-links a{
@@ -64,7 +64,7 @@ footer p{
 }
 .hero-container img{
     box-shadow: 10px 12px 12px black;
-    max-width: 50%;
+    max-width: 80%;
 }
 .hero-container img:hover{
     box-shadow: 10px 16px 16px rgb(77, 213, 220);
@@ -76,7 +76,7 @@ top: 50%;
 left: 47%;
 transform: translate(-45%, -50%);
 }
-.Social{
+.CarAuto{
     display: grid;
     float: right;
     list-style-type: none;
@@ -88,25 +88,23 @@ transform: translate(-45%, -50%);
     grid-template-areas: 
     "Soc1 Soc2 Soc3";
 }
-.Soc1{
-    grid-area: Soc1;
+.Car1{
+    grid-area: Car1;
     margin: 0, auto;
 }
-.Soc2{
-    grid-area: Soc2;
+.Car2{
+    grid-area: Car2;
     margin: 0,auto;
 }
-.Soc3{
-    grid-area: Soc3;
+.Car3{
+    grid-area: Car3;
     margin: 0,auto;
 }
-.Social img{
+.CarAutol img{
     max-width: 65%;
 }
-.Soc1 img:hover{
-    box-shadow: yellow;
-}
-.Soc1 .Soc2 .Soc3{
+
+.Car1 .Car2 .Car3{
     width: 60%;
 }
 em 
@@ -131,26 +129,16 @@ h4, h6 {
 }
 p1
 {
-   margin: 10px;
-   text-align:right;
+   margin: 0px;
+   text-align: center;
    font-weight: 900px;
    font-size:x-large;
    color:rgb(19, 16, 1);
    background-color: rgb(126, 239, 212);
    letter-spacing: 2%;
-   padding: 1% 1%;
-   border-radius: 100%;
+   /*padding: 1% 1%;*/
+   border-radius: 110%;
    
 }
-p2
-{
-   margin: 10px;
-   text-align: center;
-   font-weight: 900px;
-   font-size:x-large;
-   color: rgb(19, 16, 1);
-   background-color:rgb(126, 239, 212);
-   letter-spacing: 2%;
-   padding: 1% 1%;
-}
+
     
